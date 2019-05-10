@@ -1,7 +1,7 @@
 up:
 	docker-compose up
 
-up:
+stop:
 	docker-compose stop
 	
 destroy:
