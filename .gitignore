@@ -17,3 +17,4 @@ log.txt
 *.db-wal
 *.pid
 transcoding-temp/
+stats.json
