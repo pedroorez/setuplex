@@ -61,8 +61,8 @@ services:
       - ./config/bazarr:/config
       - ./mnt/videos/movies:/mnt/videos/movies
       - ./mnt/videos/tv:/mnt/videos/tv
-    # ports:
-    #   - 6767:6767  # for debugging only
+    ports:
+      - 6767:6767  # for debugging only
 
   transmission:
     image: linuxserver/transmission
@@ -76,7 +76,7 @@ services:
       - ./config/transmission/watch:/watch
       - ./mnt:/mnt
     ports:
-      # - 9091:9091   # for debugging only
+      - 9091:9091   # for debugging only
       - 51413:51413
       - 51413:51413/udp
   
@@ -89,5 +89,5 @@ services:
       - TZ=America/Sao_Paulo
     volumes:
       - ./config/jackett:/config
-    # ports:
-    #   - 9117:9117  # for debugging only
+    ports:
+      - 9117:9117  # for debugging only
