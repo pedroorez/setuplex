@@ -68,10 +68,20 @@ NZB360 - https://play.google.com/store/apps/details?id=com.kevinforeman.nzb360
 
 After installing this app just use your configure DDNS and the APIKeys from each app.
 
-## Kodi Setup
+## Jellyfin Mobile Client
 
-To sync the data you must use the following add-on for Kodi: https://github.com/jellyfin/jellyfin-kodi
+The Jellyfin android client still is under development so it's not on the playstore yet. But it's possible to download it in the link below:
 
-Just clone it as a zip file and install the add-on on your Kodi setup.
+https://repo.jellyfin.org/releases/client/android/
 
-You must also install the `Kodi Queu Sync` on the plugin list of the server to automatically sync new data. (TODO: should be automatic)
+## Kodi Client Setup
+
+To access jellyfin server you must use the following add-on for Kodi: https://github.com/jellyfin/jellyfin-kodi
+
+To install just clone it as a zip file and install the add-on on your Kodi setup.
+
+You must also install the `Kodi Queu Sync` on the plugin list of the server to automatically sync new data. (TODO: should not be nescessary to install it)
+
+## License
+
+yarrrrrrrr
