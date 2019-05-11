@@ -1,7 +1,7 @@
 version: '3'
 services:
-  emby:
-    image: emby/embyserver:latest
+  jelly:
+    image: jellyfin/jellyfin
     restart: unless-stopped
     depends_on:
       - sonarr
@@ -10,58 +10,59 @@ services:
       - 8096:8096
       - 8920:8920
     environment:
-    - PUID=1000
-    - GUID=1000
-    - TZ=America/Sao_Paulo
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Sao_Paulo 
     volumes:
-      - ./config/emby:/config
+      - ./config/jellyfin:/config
       - ./mnt/:/mnt/
+    
 
   sonarr:
-    image: "linuxserver/sonarr"
+    image: linuxserver/sonarr
     restart: unless-stopped
     depends_on:
       - jackett
       - transmission
     ports:
-      - "8989:8989"
+      - 8989:8989
     environment:
     - PUID=1000
     - GUID=1000
     - TZ=America/Sao_Paulo
     volumes:
       - ./config/sonarr:/config
-      - ./mnt/videos/tv:/videos
+      - ./mnt/tv:/mnt/tv
 
   radarr:
-    image: "linuxserver/radarr"
+    image: linuxserver/radarr
     restart: unless-stopped
     depends_on:
       - jackett
       - transmission
     ports:
-      - "7878:7878"
+      - 7878:7878
     environment:
     - PUID=1000
     - GUID=1000
     - TZ=America/Sao_Paulo
     volumes:
       - ./config/ronarr:/config
-      - ./mnt/videos/movies:/videos
+      - ./mnt/movies:/mnt/movies
 
   bazarr:
     image: linuxserver/bazarr
+    restart: unless-stopped
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=America/Sao_Paulo
     volumes:
       - ./config/bazarr:/config
-      - ./mnt/videos/movies:/videos/movies
-      - ./mnt/videos/tv:/videos/tv
-    ports:
-      - 6767:6767
-    restart: unless-stopped
+      - ./mnt/videos/movies:/mnt/videos/movies
+      - ./mnt/videos/tv:/mnt/videos/tv
+    # ports:
+    #   - 6767:6767  # for debugging only
 
   transmission:
     image: linuxserver/transmission
@@ -73,9 +74,9 @@ services:
     volumes:
       - ./config/transmission/config:/config
       - ./config/transmission/watch:/watch
-      - ./mnt/videos:/videos
+      - ./mnt:/mnt
     ports:
-      - 9091:9091
+      # - 9091:9091   # for debugging only
       - 51413:51413
       - 51413:51413/udp
   
@@ -88,5 +89,5 @@ services:
       - TZ=America/Sao_Paulo
     volumes:
       - ./config/jackett:/config
-    ports:
-      - 9117:9117
+    # ports:
+    #   - 9117:9117  # for debugging only
