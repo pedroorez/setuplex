@@ -12,7 +12,6 @@ Backups/
 *.dll
 log.txt
 *.bak
-*.db
 *.db-shm
 *.db-wal
 *.pid
