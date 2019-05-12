@@ -1,8 +1,8 @@
 /mnt
 cache/
 dlna/
-data/
 logs/
+log/
 metadata/
 MediaCover/
 *.resume
