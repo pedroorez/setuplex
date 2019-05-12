@@ -23,9 +23,9 @@ After the setup you must change the password and API Keys of all services since 
 
 | App         | Username     | Password/APIKey |
 |-------------|--------------|-----------------|
-| Jellyfin    | admin        | admin           |
+| Jellyfin    | root         | n/a             |
 | Trasmission | transmission | transmission    |
-| Sonarr      |              | blah            |
+| Sonarr      |              | bb8719bfc86742a1a8a3b4623d25d4c2 |
 | Radarr      |              | blah            |
 
 # Available Services
