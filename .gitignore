@@ -18,7 +18,7 @@ log.txt
 *.db-wal
 *.pid
 logs.db
-*.dht
+dht.dat
 
 # Jellyfin
 transcoding-temp/
