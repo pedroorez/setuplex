@@ -48,7 +48,7 @@ services:
     - GUID=1000
     - TZ=America/Sao_Paulo
     volumes:
-      - ./config/ronarr:/config
+      - ./config/radarr:/config
       - ./mnt/download/:/downloads/
       - ./mnt/movies:/mnt/movies
 
