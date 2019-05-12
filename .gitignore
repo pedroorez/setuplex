@@ -9,7 +9,6 @@ MediaCover/
 torrents/
 Backups/
 .DS_Store
-*.dll
 log.txt
 *.bak
 *.db-shm

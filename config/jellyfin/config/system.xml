@@ -2,6 +2,7 @@
 <ServerConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <LogFileRetentionDays>3</LogFileRetentionDays>
   <IsStartupWizardCompleted>true</IsStartupWizardCompleted>
+  <CachePath>/cache</CachePath>
   <EnableUPnP>true</EnableUPnP>
   <PublicPort>8096</PublicPort>
   <PublicHttpsPort>8920</PublicHttpsPort>
@@ -16,6 +17,8 @@
   <CollectionsUpgraded>true</CollectionsUpgraded>
   <EnableCaseSensitiveItemIds>true</EnableCaseSensitiveItemIds>
   <DisableLiveTvChannelUserDataName>true</DisableLiveTvChannelUserDataName>
+  <MetadataPath>/config/metadata</MetadataPath>
+  <MetadataNetworkPath />
   <PreferredMetadataLanguage>en</PreferredMetadataLanguage>
   <MetadataCountryCode>US</MetadataCountryCode>
   <SortReplaceCharacters>
@@ -150,6 +153,7 @@
   </MetadataOptions>
   <EnableAutomaticRestart>true</EnableAutomaticRestart>
   <SkipDeserializationForBasicTypes>true</SkipDeserializationForBasicTypes>
+  <ServerName>Yarrflix</ServerName>
   <UICulture>en-US</UICulture>
   <SaveMetadataHidden>false</SaveMetadataHidden>
   <ContentTypes />
