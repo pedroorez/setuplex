@@ -8,4 +8,4 @@ destroy:
 	docker-compose down
 
 clean:
-	rm -rf config mnt && git checkout .
+	rm -rf config && git checkout .
