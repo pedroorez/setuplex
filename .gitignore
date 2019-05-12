@@ -3,16 +3,26 @@ cache/
 dlna/
 logs/
 log/
+xdg/
 metadata/
 MediaCover/
 *.resume
 torrents/
 Backups/
+
+# Sonarr / Radarr / Bazarr
 .DS_Store
 log.txt
 *.bak
 *.db-shm
 *.db-wal
 *.pid
+
+# Jellyfin
 transcoding-temp/
 stats.json
+
+# Transmission
+blocklist-update.sh
+blocklist/
+remuse/
