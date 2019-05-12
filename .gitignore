@@ -17,10 +17,17 @@ log.txt
 *.db-shm
 *.db-wal
 *.pid
+logs.db
 
 # Jellyfin
 transcoding-temp/
 stats.json
+config/jellyfin/data/devices
+config/jellyfin/data/ScheduledTasks
+config/jellyfin/config/users
+activitylog.db
+device.txt
+
 
 # Transmission
 blocklist-update.sh
