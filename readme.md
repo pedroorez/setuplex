@@ -82,6 +82,14 @@ To install just clone it as a zip file and install the add-on on your Kodi setup
 
 You must also install the `Kodi Queu Sync` on the plugin list of the server to automatically sync new data. (TODO: should not be nescessary to install it)
 
+## Contribute
+
+Developing this project is kinda messy at the moment.
+
+Most of configurations are made using SQLite databases. So the development flow is basically run `make clean` to delete any file not commited and recreate the container. After that make a tiny modification and commit the new SQLite Database.
+
+You can also modify de database directly using a client and opening the `nzbdrione.db` database files.
+
 ## License
 
 yarrrrrrrr
