@@ -28,7 +28,6 @@ config/jellyfin/data/ScheduledTasks
 config/jellyfin/config/users
 activitylog.db
 device.txt
-authentication.db
 displaypreferences.db
 kodisyncqueue.db
 library.db
