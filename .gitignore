@@ -38,3 +38,6 @@ library.db
 blocklist-update.sh
 blocklist/
 remuse/
+
+# Jackett
+config/jackett/Jackett/DataProtection
