@@ -6,3 +6,6 @@ stop:
 	
 destroy:
 	docker-compose down
+
+clean:
+	rm -rf config mnt && git checkout .
