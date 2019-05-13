@@ -28,6 +28,12 @@ After the setup you must change the password and API Keys of all services since 
 | Sonarr      |              | bb8719bfc86742a1a8a3b4623d25d4c2 |
 | Radarr      |              | 863e473260934d0c9ba71737c383961f |
 
+# Default open trackers avaiable
+
+The following open trackers are configured by default:
+
+- Rarbg
+
 # Available Services
 
 After the setup you will have access to folowing services

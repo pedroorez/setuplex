@@ -1,0 +1,20 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://kat.li/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": ""
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": "Exception (kickasstorrent-kathow): certificate validation failed: [Subject]\n  CN=kat.li, O=\"OpenDNS, Inc.\", L=San Francisco, S=California, C=US\n\n[Issuer]\n  O=Cisco, CN=Cisco Umbrella Secondary SubCA sao1-SG\n\n[Serial Number]\n  5CD9B4F4\n\n[Not Before]\n  5/11/19 1:34:54 PM\n\n[Not After]\n  5/16/19 1:34:54 PM\n\n[Thumbprint]\n  9857FD545CA948BD3450DC3526B87E7131473140\n: The SSL connection could not be established, see inner exception."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://www.frozen-layer.com/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": ""
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": "Exception (frozenlayer): certificate validation failed: [Subject]\n  CN=www.frozen-layer.com, O=\"OpenDNS, Inc.\", L=San Francisco, S=California, C=US\n\n[Issuer]\n  O=Cisco, CN=Cisco Umbrella Secondary SubCA sao1-SG\n\n[Serial Number]\n  5CD9B291\n\n[Not Before]\n  5/11/19 1:34:53 PM\n\n[Not After]\n  5/16/19 1:34:53 PM\n\n[Thumbprint]\n  94BF753A083D054C0ED331A5193ADC2B04AF4E02\n: The SSL connection could not be established, see inner exception."
+  },
+  {
+    "id": "category",
+    "type": "inputselect",
+    "name": "Category",
+    "value": "todos",
+    "options": {
+      "todos": "todos",
+      "anime": "anime",
+      "manga": "manga",
+      "dorama": "dorama",
+      "videojuego": "videojuego",
+      "BSO": "BSO",
+      "PV": "PV",
+      "otros": "otros"
+    }
+  },
+  {
+    "id": "directdownloads",
+    "type": "displayinfo",
+    "name": "Direct Downloads",
+    "value": "This definition filters for search results that contain .torrent and magnet only. Results for Direct Download are not supported."
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://monova.org/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": ""
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": "Exception (monova): certificate validation failed: [Subject]\n  CN=monova.org, O=\"OpenDNS, Inc.\", L=San Francisco, S=California, C=US\n\n[Issuer]\n  O=Cisco, CN=Cisco Umbrella Secondary SubCA sao1-SG\n\n[Serial Number]\n  5CD9B4F5\n\n[Not Before]\n  5/11/19 1:34:54 PM\n\n[Not After]\n  5/16/19 1:34:54 PM\n\n[Thumbprint]\n  2E2112F1FE6F9561A58172FF5881F330581B35EB\n: The SSL connection could not be established, see inner exception."
+  }
+]

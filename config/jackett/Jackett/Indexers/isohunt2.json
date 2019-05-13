@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://isohunt2.net/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": ""
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": "Exception (isohunt2): certificate validation failed: [Subject]\n  CN=isohunt2.net, O=\"OpenDNS, Inc.\", L=San Francisco, S=California, C=US\n\n[Issuer]\n  O=Cisco, CN=Cisco Umbrella Secondary SubCA sao1-SG\n\n[Serial Number]\n  5CD9B4F3\n\n[Not Before]\n  5/11/19 1:34:54 PM\n\n[Not After]\n  5/16/19 1:34:54 PM\n\n[Thumbprint]\n  625337CEE12DDFAA281897F0644419FBD099EBF9\n: The SSL connection could not be established, see inner exception."
+  },
+  {
+    "id": "categoryfilter",
+    "type": "inputselect",
+    "name": "Category Filter",
+    "value": "0",
+    "options": {
+      "0": "All",
+      "1": "Anime",
+      "2": "Software",
+      "3": "Games",
+      "4": "Adult",
+      "5": "Movies",
+      "6": "Music",
+      "7": "Other",
+      "8": "Series & TV",
+      "9": "Books"
+    }
+  }
+]

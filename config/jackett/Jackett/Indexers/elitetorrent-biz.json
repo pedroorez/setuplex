@@ -1,0 +1,20 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://www.elitetorrent.io/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": ""
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": "Exception (elitetorrent-biz): certificate validation failed: [Subject]\n  CN=www.elitetorrent.io, O=\"OpenDNS, Inc.\", L=San Francisco, S=California, C=US\n\n[Issuer]\n  O=Cisco, CN=Cisco Umbrella Secondary SubCA sao1-SG\n\n[Serial Number]\n  5CD990B1\n\n[Not Before]\n  5/11/19 11:08:26 AM\n\n[Not After]\n  5/16/19 11:08:26 AM\n\n[Thumbprint]\n  E3F34C2F0885EBDB9C8296D09673B45C14013723\n: The SSL connection could not be established, see inner exception."
+  }
+]
