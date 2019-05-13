@@ -33,6 +33,10 @@ After the setup you must change the password and API Keys of all services since 
 The following open trackers are configured by default:
 
 - Rarbg
+- ACG.rip
+- cpasbien clone
+- KATcrs
+- Torrents.csv
 
 # Available Services
 
