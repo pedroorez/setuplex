@@ -15,13 +15,13 @@
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Found no results while trying to browse this tracker"
+    "value": null
   },
   {
     "id": "languageid",
     "type": "inputstring",
     "name": "Language ID",
-    "value": null
+    "value": ""
   },
   {
     "id": "languageidnote",

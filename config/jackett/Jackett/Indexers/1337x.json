@@ -15,7 +15,7 @@
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Exception (1337x): certificate validation failed: [Subject]\n  CN=1337x.to, O=\"OpenDNS, Inc.\", L=San Francisco, S=California, C=US\n\n[Issuer]\n  O=Cisco, CN=Cisco Umbrella Secondary SubCA sao1-SG\n\n[Serial Number]\n  5CD98574\n\n[Not Before]\n  5/11/19 10:44:44 AM\n\n[Not After]\n  5/16/19 10:44:44 AM\n\n[Thumbprint]\n  9BDE18694491BD77C2016756F72B0CFEC42B243C\n: The SSL connection could not be established, see inner exception."
+    "value": "Exception (1337x): certificate validation failed: [Subject]\n  CN=1337x.to, O=\"OpenDNS, Inc.\", L=San Francisco, S=California, C=US\n\n[Issuer]\n  O=Cisco, CN=Cisco Umbrella Secondary SubCA sao1-SG\n\n[Serial Number]\n  5CD98CD3\n\n[Not Before]\n  5/11/19 10:44:45 AM\n\n[Not After]\n  5/16/19 10:44:45 AM\n\n[Thumbprint]\n  7A5F2AD5B6F5D011EACABD1771B5D29BD423EE62\n: The SSL connection could not be established, see inner exception."
   },
   {
     "id": "downloadlink",

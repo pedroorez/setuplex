@@ -15,6 +15,6 @@
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Exception (magnetdl): certificate validation failed: [Subject]\n  CN=www.magnetdl.com, O=\"OpenDNS, Inc.\", L=San Francisco, S=California, C=US\n\n[Issuer]\n  O=Cisco, CN=Cisco Umbrella Secondary SubCA sao1-SG\n\n[Serial Number]\n  5CD9B296\n\n[Not Before]\n  5/11/19 1:34:54 PM\n\n[Not After]\n  5/16/19 1:34:54 PM\n\n[Thumbprint]\n  E6DAE74E923FA22D09561F7F60E9429E021A73F8\n: The SSL connection could not be established, see inner exception."
+    "value": "Exception (magnetdl): certificate validation failed: [Subject]\n  CN=www.magnetdl.com, O=\"OpenDNS, Inc.\", L=San Francisco, S=California, C=US\n\n[Issuer]\n  O=Cisco, CN=Cisco Umbrella Secondary SubCA sao1-SG\n\n[Serial Number]\n  5CD9BFB7\n\n[Not Before]\n  5/11/19 2:28:19 PM\n\n[Not After]\n  5/16/19 2:28:19 PM\n\n[Thumbprint]\n  B8983DFE245F5CF4A6872B162C577EFF937A5049\n: The SSL connection could not be established, see inner exception."
   }
 ]
