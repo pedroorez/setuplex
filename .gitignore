@@ -16,6 +16,7 @@ log.txt
 *.bak
 *.db-shm
 *.db-wal
+*.db-journal
 *.pid
 logs.db
 dht.dat
