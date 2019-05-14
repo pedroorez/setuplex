@@ -9,13 +9,13 @@
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": ""
+    "value": "__cfduid=d2807c63ebb3e5eac75eb031bd6101b5c1557795675; PHPSESSID=svuob6to13lcoqgv67tn2cjn7s; flash="
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Exception (skytorrentsclone): certificate validation failed: [Subject]\n  CN=www.skytorrents.lol, O=\"OpenDNS, Inc.\", L=San Francisco, S=California, C=US\n\n[Issuer]\n  O=Cisco, CN=Cisco Umbrella Secondary SubCA sao1-SG\n\n[Serial Number]\n  5CD9B4F8\n\n[Not Before]\n  5/11/19 1:34:56 PM\n\n[Not After]\n  5/16/19 1:34:56 PM\n\n[Thumbprint]\n  10FBA081D039C0A65F166992F0E1F02673A1D207\n: The SSL connection could not be established, see inner exception."
+    "value": null
   },
   {
     "id": "adddownloadlinksviaitorrents.org",

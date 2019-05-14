@@ -9,13 +9,13 @@
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": ""
+    "value": "_foundation_session=eb30f78cbb5d4883d186e3cb09f78b27"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Exception (frozenlayer): certificate validation failed: [Subject]\n  CN=www.frozen-layer.com, O=\"OpenDNS, Inc.\", L=San Francisco, S=California, C=US\n\n[Issuer]\n  O=Cisco, CN=Cisco Umbrella Secondary SubCA sao1-SG\n\n[Serial Number]\n  5CD9B291\n\n[Not Before]\n  5/11/19 1:34:53 PM\n\n[Not After]\n  5/16/19 1:34:53 PM\n\n[Thumbprint]\n  94BF753A083D054C0ED331A5193ADC2B04AF4E02\n: The SSL connection could not be established, see inner exception."
+    "value": null
   },
   {
     "id": "category",

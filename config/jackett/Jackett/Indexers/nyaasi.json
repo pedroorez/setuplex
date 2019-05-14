@@ -15,7 +15,7 @@
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Exception (nyaasi): certificate validation failed: [Subject]\n  CN=nyaa.si, O=\"OpenDNS, Inc.\", L=San Francisco, S=California, C=US\n\n[Issuer]\n  O=Cisco, CN=Cisco Umbrella Secondary SubCA sao1-SG\n\n[Serial Number]\n  5CD9B5EF\n\n[Not Before]\n  5/11/19 1:34:56 PM\n\n[Not After]\n  5/16/19 1:34:56 PM\n\n[Thumbprint]\n  3E15482DA60AC7450B3CE5CBC9EFFA92D6CFFB28\n: The SSL connection could not be established, see inner exception."
+    "value": null
   },
   {
     "id": "filter",

@@ -9,12 +9,12 @@
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": ""
+    "value": "__cfduid=df17e684eb37f200de895cca6ad84a1781557795182; PHPSESSID=i53viropncpanmr875jjack5p7"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Exception (eztv): certificate validation failed: [Subject]\n  CN=eztv.io, O=\"OpenDNS, Inc.\", L=San Francisco, S=California, C=US\n\n[Issuer]\n  O=Cisco, CN=Cisco Umbrella Secondary SubCA sao1-SG\n\n[Serial Number]\n  5CD9BE86\n\n[Not Before]\n  5/11/19 2:20:08 PM\n\n[Not After]\n  5/16/19 2:20:08 PM\n\n[Thumbprint]\n  FAE3AAB5F8D59DF6907D74C2CAA45A5083CA262A\n: The SSL connection could not be established, see inner exception."
+    "value": null
   }
 ]

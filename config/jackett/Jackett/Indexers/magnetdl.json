@@ -9,12 +9,12 @@
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": ""
+    "value": "__cfduid=d28dc549e94b9cfd92f4d2fd137eb76bc1557795528"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Exception (magnetdl): certificate validation failed: [Subject]\n  CN=www.magnetdl.com, O=\"OpenDNS, Inc.\", L=San Francisco, S=California, C=US\n\n[Issuer]\n  O=Cisco, CN=Cisco Umbrella Secondary SubCA sao1-SG\n\n[Serial Number]\n  5CD9BFB7\n\n[Not Before]\n  5/11/19 2:28:19 PM\n\n[Not After]\n  5/16/19 2:28:19 PM\n\n[Thumbprint]\n  B8983DFE245F5CF4A6872B162C577EFF937A5049\n: The SSL connection could not be established, see inner exception."
+    "value": null
   }
 ]

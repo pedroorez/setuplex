@@ -9,12 +9,12 @@
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": ""
+    "value": "__cfduid=deabfdd60dd776b8fa5fb6a29743c0a131557796343"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Exception (zooqle): certificate validation failed: [Subject]\n  CN=zooqle.com, O=\"OpenDNS, Inc.\", L=San Francisco, S=California, C=US\n\n[Issuer]\n  O=Cisco, CN=Cisco Umbrella Secondary SubCA sao1-SG\n\n[Serial Number]\n  5CD9BFAE\n\n[Not Before]\n  5/11/19 2:28:06 PM\n\n[Not After]\n  5/16/19 2:28:06 PM\n\n[Thumbprint]\n  6EA8AC5E4D0715DA4A031580F1A825F201533ADA\n: The SSL connection could not be established, see inner exception."
+    "value": null
   }
 ]
